@@ -1,0 +1,33 @@
+.outer{
+    text-align: center;
+    margin-top: 50px;
+}
+.ticket{
+    border: 2px solid black;
+    box-shadow: 0 5px 15px 0;
+    border-radius: 14px;
+    width: fit-content;
+    margin:0 auto;
+    padding: 60px 100px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(249, 215, 18);
+}
+button{
+    background-color: rgba(237, 34, 34, 0.891);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+     .ticket {
+        font-size: 1.5rem;
+        gap: 15px;
+        padding: 40px 50px;
+    }
+
+    button {
+        padding: 14px;
+        font-size: 1rem;
+    }
+}
